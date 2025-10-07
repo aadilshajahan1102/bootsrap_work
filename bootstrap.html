@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            background-color: #2686cb;
+        }
+        .container{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Sign Up</b></h1>
+        <p>Please fill in this form to create an account!</p>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First Name" name="fname">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last Name" name="lname">
+                </div>
+            </div>
+            <br>
+            <input type="text" class="form-control" placeholder="Email" name="email">
+            <br>
+            <input type="password" class="form-control" placeholder="Password" name="pass">
+            <br>
+            <input type="password" class="form-control" placeholder="Confirm Password" name="cpass">
+            <br>
+            <input type="checkbox"> I accept the Terms of Use & Privacy Policy
+            <br>
+            <button type="submit" class="btn btn-primary" width="250px">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
